@@ -86,7 +86,7 @@ class CodeEditor extends Component {
 function test(num1, num2) {
 var i;
 var arr = [1,2,3,4,5,6,7,8,9,0];
-for (i = 0; i < 1000000; i++) {
+for (i = 0; i < 1000; i++) {
     // 这个if语句的条件和执行体是随便写的，目的是让程序尽可能多运算一点时间，得到一个相对大的时间差
     if ( "1234567890".search(/\\d{10}/) > -1 ) {
         arr.map(function(x) {return x});
